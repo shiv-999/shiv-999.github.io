@@ -22,7 +22,7 @@ export const hero = {
   facts: [
     { label: 'Focus', value: 'React / JavaScript fixes, landing pages, Python scripts' },
     { label: 'Hours', value: 'Evenings and weekends, India time (IST, UTC+5:30)' },
-    { label: 'Experience', value: 'Nearly three years of professional software development' },
+    { label: 'Experience', value: 'Nearly three years of professional development in .NET/C#, Java and SQL' },
     { label: 'Payment', value: 'Fixed price per milestone, agreed in writing' },
   ],
 };
@@ -173,6 +173,7 @@ export const projects = [
 
 export const skills = [
   { group: 'Web', items: ['React', 'JavaScript', 'HTML', 'CSS'] },
+  { group: 'Back end', items: ['C# / .NET', 'Java', 'SQL Server'] },
   { group: 'Python', items: ['Python fundamentals', 'Streamlit', 'TensorFlow / Keras (exposure)'] },
   { group: 'Data', items: ['SQL', 'MySQL'] },
   { group: 'Systems', items: ['Linux', 'Networking', 'UDP socket programming', 'C++'] },
