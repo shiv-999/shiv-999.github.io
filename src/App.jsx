@@ -187,7 +187,7 @@ export default function App() {
               </dl>
             </div>
             <div>
-              <SectionHead id="support-title" kicker="Support strengths" title="Technical support" />
+              <SectionHead id="support-title" kicker="How I deliver" title="Working strengths" />
               <ul className="ticks">
                 {supportStrengths.map((s) => <li key={s}>{s}</li>)}
               </ul>

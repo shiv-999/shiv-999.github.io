@@ -22,7 +22,7 @@ export const hero = {
   facts: [
     { label: 'Focus', value: 'React / JavaScript fixes, landing pages, Python scripts' },
     { label: 'Hours', value: 'Evenings and weekends, India time (IST, UTC+5:30)' },
-    { label: 'Background', value: 'Nearly three years in IT support and troubleshooting' },
+    { label: 'Experience', value: 'Nearly three years of professional software development' },
     { label: 'Payment', value: 'Fixed price per milestone, agreed in writing' },
   ],
 };
@@ -95,8 +95,8 @@ export const process = [
 
 export const reasons = [
   {
-    title: 'Support background',
-    text: 'Nearly three years of IT work spent troubleshooting problems and helping people get back to work.',
+    title: 'Professional experience',
+    text: 'Nearly three years of professional software development, working from requirements to tested, maintainable code.',
   },
   {
     title: 'Structured debugging',
@@ -180,10 +180,10 @@ export const skills = [
 ];
 
 export const supportStrengths = [
-  'Diagnosing problems from vague descriptions',
-  'Step-by-step troubleshooting on Linux and Windows machines',
-  'Explaining fixes to non-technical people',
-  'Writing clear notes so the same issue is easier next time',
+  'Turning requirements into working, tested features',
+  'Debugging by reproducing, isolating and verifying fixes',
+  'Explaining technical choices to non-technical clients',
+  'Clean handover notes so the next change is easy',
 ];
 
 export const terms = [
