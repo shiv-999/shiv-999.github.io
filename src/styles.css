@@ -234,3 +234,6 @@ h1 { font-size: clamp(2.1rem, 5.4vw, 3.5rem); max-width: 18ch; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
   .btn:hover { transform: none; }
 }
+
+.project-links { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: auto 0 0; }
+.project .project-links .link { margin-top: 0; }

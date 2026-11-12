@@ -143,7 +143,7 @@ export default function App() {
         <section className="section" id="work" aria-labelledby="work-title">
           <div className="wrap">
             <SectionHead id="work-title" kicker="Proof" title="Project work">
-              Personal and academic projects, with source code you can read. None of these are client projects.
+              Live demos and personal projects you can open and inspect. Concept sites use fictional brands; none of these are client projects.
             </SectionHead>
             <div className="grid-3">
               {projects.map((p) => (
@@ -159,7 +159,10 @@ export default function App() {
                   <ul className="chips" aria-label="Technologies">
                     {p.tech.map((t) => <li key={t}>{t}</li>)}
                   </ul>
-                  <External className="link" href={p.repo}>View source on GitHub</External>
+                  <p className="project-links">
+                    {p.live && <External className="link" href={p.live}>View live site</External>}
+                    {p.repo && <External className="link" href={p.repo}>View source on GitHub</External>}
+                  </p>
                 </article>
               ))}
             </div>

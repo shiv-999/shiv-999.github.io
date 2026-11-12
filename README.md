@@ -1,13 +1,16 @@
-# Shivam Shukla — contractor portfolio
+# Shivam Shukla — portfolio
 
-Local-only single-page portfolio (React + Vite).
+My freelance portfolio: services, how I work, and projects with live demos.
 
-- `npm install`
-- `npm run dev` — local preview
-- `npm run build` — static output in `dist/`
+**Live:** https://shiv-999.github.io/
 
-All copy is in `src/content.js` and must contain verified facts only.
+Built with React and Vite. Content lives in `src/content.js`.
 
-Deployment and public repository creation are **not yet authorised**. Do not publish or post it anywhere (including LinkedIn) without the owner's explicit approval.
+```bash
+npm install
+npm run dev      # local preview
+npm run lint
+npm run build    # static output in dist/
+```
 
-Resume: none included. Add an employer-free PDF to `public/` later if wanted.
+Deployed to GitHub Pages by the workflow in `.github/workflows/pages.yml`.

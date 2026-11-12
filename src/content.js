@@ -8,7 +8,7 @@ export const profile = {
   email: 'shivamshukla2223@gmail.com',
   github: 'https://github.com/shiv-999',
   linkedin: 'https://www.linkedin.com/in/shivam-shukla-385502336/',
-  education: 'B.Tech in Information Technology (2024), CGPA 9.01/10',
+  education: 'B.Tech (2024), CGPA 9.01/10',
 };
 
 export const mailto =
@@ -113,6 +113,29 @@ export const reasons = [
 ];
 
 export const projects = [
+  {
+    title: 'Signalcraft — SaaS landing page',
+    label: 'Concept project · 2026',
+    problem: 'A launch page for an AI marketing product that needs to explain the offer fast and collect early signups.',
+    built:
+      'A responsive Next.js site with a mobile menu, a monthly/yearly pricing toggle, an accessible FAQ, client-side email validation, and SEO metadata, sitemap and FAQ structured data. Exported as static files for fast hosting.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React'],
+    shows: 'Turning a product idea into a fast, search-friendly marketing site with interactive React components.',
+    status: 'Live demo. Fictional brand; the signup form does not send data.',
+    live: 'https://shiv-999.github.io/signalcraft-landing/',
+    repo: 'https://github.com/shiv-999/signalcraft-landing',
+  },
+  {
+    title: 'Northfield Advisory — WordPress site',
+    label: 'Concept project · 2026',
+    problem: 'A consulting firm homepage that a non-technical owner can keep editing after handover.',
+    built:
+      'Built in the WordPress block editor with Kadence Theme and Kadence Blocks: row layouts, info boxes, icon lists and buttons, with a hidden page title and full-width layout. Checked on phone, tablet and desktop.',
+    tech: ['WordPress', 'Kadence Blocks', 'Gutenberg', 'Responsive design'],
+    shows: 'Delivering client-editable WordPress pages from a brief, without custom code the owner cannot maintain.',
+    status: 'Live demo in WordPress Playground (takes about 20 seconds to load). Fictional company.',
+    live: 'https://playground.wordpress.net/?blueprint-url=https://gist.githubusercontent.com/shiv-999/72da20eb326b87083b4047fb89e29c1e/raw/northfield-blueprint.json',
+  },
   {
     title: 'React task manager',
     label: 'Personal project',
